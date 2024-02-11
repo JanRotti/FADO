@@ -1,5 +1,9 @@
-# FADO
-Framework for Aerostructural Design Optimization
+# PYRDO
+Python Framework for Robust Design Optimization
+
+## Extension
+PYRDO builds on top of the existing FADO code, and aims to provide distributionally
+robust methodology into the existing code.
 
 ## Motivation
 Q: "What is my purpose?"

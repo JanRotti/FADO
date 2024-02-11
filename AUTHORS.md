@@ -1,3 +1,9 @@
+# PYRDO Authors #
+
+PYRDO is primarily developed by 
+- Jan Rottmayer (RPTU Kaiserslautern-Landau)
+- Long Chen (RPTU Kaiserslautern-Landau)
+
 # FADO Authors #
 
 FADO is developed by a community of voluntary contributors who contribute code, bug reports, documentation, support, etc.
