@@ -42,7 +42,7 @@ Any object implementing `write(file,values)` and/or `read(file) -> values` can b
 - **LabeledTableReader**: Reads values from CSV-type files based on column name and range of rows.
 
 ## Installation
-Make the parent directory ("../") and FADO's ("./") reachable to Python, usually via PYTHONPATH, `from FADO import *` should then work (provided the name of the directory was not changed).
+Make FADO's ("./") reachable to Python, usually via PYTHONPATH, `from FADO import *` should then work (provided the name of the directory was not changed).
 
 ## Dependencies
 Hard dependency on NumPy, ndarrays are used throughout the code.

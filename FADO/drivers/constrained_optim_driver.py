@@ -18,7 +18,7 @@
 import os
 import time
 import numpy as np
-from drivers.parallel_eval_driver import ParallelEvalDriver
+from .parallel_eval_driver import ParallelEvalDriver
 
 
 class ConstrainedOptimizationDriver(ParallelEvalDriver):

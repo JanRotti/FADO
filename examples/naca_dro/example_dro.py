@@ -232,6 +232,9 @@ driver.setFailureMode("SOFT")
 his = open("optim.his", "w", 1)
 driver.setHistorian(his)
 
+if not os.path.exists("./DESIGN"):
+    os.makedirs("./DESIGN")
+    
 # Optimization, SciPy -------------------------------------------------- #
 import scipy.optimize
 

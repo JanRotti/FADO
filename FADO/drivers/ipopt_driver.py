@@ -19,7 +19,7 @@ import os
 import time
 import numpy as np
 import ipyopt as opt
-from drivers.constrained_optim_driver import ConstrainedOptimizationDriver
+from .constrained_optim_driver import ConstrainedOptimizationDriver
 
 
 class IpoptDriver(ConstrainedOptimizationDriver):

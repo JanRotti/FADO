@@ -18,7 +18,7 @@
 import os
 import time
 import subprocess as sp
-from drivers.base_driver import DriverBase
+from .base_driver import DriverBase
 
 
 class ParallelEvalDriver(DriverBase):

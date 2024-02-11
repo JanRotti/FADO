@@ -18,7 +18,7 @@
 import os
 import time
 import numpy as np
-from drivers.constrained_optim_driver import ConstrainedOptimizationDriver
+from .constrained_optim_driver import ConstrainedOptimizationDriver
 
 
 class ScipyDriver(ConstrainedOptimizationDriver):
