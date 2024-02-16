@@ -143,7 +143,7 @@ class Parameter:
         self._values = values
         self._parser = parser
         self._function = function
-        # make sure starting possition is valid
+        # make sure starting position is valid
         self._upper = len(values)-1
         self._index = max(0,min(self._upper,start))
 
